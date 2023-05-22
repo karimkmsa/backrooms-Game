@@ -53,10 +53,7 @@ public class MovementScript : MonoBehaviour
 
         ShootRaycast();
 
-        if(Input.GetKeyDown(KeyCode.Space) & grounded == true)
-        {
-            rb.AddForce(Vector3.up * jumpAmount, ForceMode.Impulse);
-        }
+       
 
         float h = horizontalSpeed * Input.GetAxis("Mouse X");
         transform.Rotate(v, h, 0);
@@ -70,11 +67,7 @@ public class MovementScript : MonoBehaviour
         {
             Debug.Log(hit.transform.name);
             
-            Target target = hit.transform.GetComponent<Target>();
-            if (target != null)
-            {
-                StartCoroutine(JumpBool());
-            }
+          
         }
     }
 

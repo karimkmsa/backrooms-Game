@@ -9,7 +9,7 @@ public int NumberOfDiamonds{get; private set;}
 public UnityEvent<PlayerInventory> onDiamondCollected;
 
 public  void DiamonCollected(){
-    
+
 NumberOfDiamonds++;
 onDiamondCollected.Invoke(this);
 }

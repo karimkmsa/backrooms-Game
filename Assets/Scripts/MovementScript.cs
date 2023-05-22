@@ -9,7 +9,7 @@ public class MovementScript : MonoBehaviour
     public float  Speed = 125;
 
     public Rigidbody rb;
-    public float jumpAmount = 10;
+    public float jumpAmount = 10f;
     public float range = 1f;
     public bool grounded = false;
     public Camera GroundedCam;

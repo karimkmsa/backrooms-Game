@@ -644,7 +644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isMoving: 0
   movementSpeed: 2
-  Speed: 5
+  Speed: 50
   rb: {fileID: 603099947}
   jumpAmount: 5
   range: 1
@@ -942,7 +942,7 @@ MonoBehaviour:
   walkPointRange: 5
   timeBetweenAttacks: 0
   projectile: {fileID: 0}
-  sightRange: 7
+  sightRange: 3
   attackRange: 0
   playerInSightRange: 0
   playerInAttackRange: 0
